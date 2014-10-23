@@ -1,16 +1,23 @@
 /* Your Website Styles */
 h1{
 	color: #ABE3CD;
-	font-family: 'Lobster', cursive;
-	background: red;
-	width: 300px;
-	padding: 10px;
-	border: 10px solid black;
+	background: #629682;
+	margin: 0 0 10px 0;
+	padding: 20px; 
 }
 body{
-	background: url("../img/bg.png");
+	background: url("../img/tree_bark.png");
 }
 
+img {
+	max-width: 100%;
+	border-radius: 30px;
+	padding: 0;
+}
+
+h2	{
+	color: #ABE3CD;
+}
 /* Show Grid */
 .showgrid {
 	background: url("../img/grid-bg.png") repeat-y;
