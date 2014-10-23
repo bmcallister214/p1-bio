@@ -8,6 +8,9 @@ h1{
 	font-family: 'Arvo', serif;
 	font-size: 2.8em;
 	text-align: center;
+	opacity: 0.75;
+	
+
 }
 body{
 	background: url("../img/tree_bark.png");
@@ -24,8 +27,17 @@ img {
 }
 
 h2	{
-	color: #ABE3CD;
+	color: #629682;
+	font-family: 'Arvo', serif;
 }
+
+p {
+	color: #965F53;
+	font-family: 'Arvo', serif;
+
+}
+
+
 
 blockquote	{
 	color: #965F53;
@@ -52,6 +64,7 @@ a {
 	padding: 0;
 	margin: 0;
 	font-size: 0.9em;
+
 }
 
 .links a {
@@ -61,18 +74,22 @@ a {
 	background-size: 20px 20px;
 	padding: 0 0 0 30px;
 	margin: 0 0 10px;
+	
 }
 
 .links li.github a {
 	background-image: url('../img/github.png');
+	
 }
 
 .links li.facebook a {
 	background-image: url('../img/facebook.png');
+
 }
 
 .links li.ewu a {
 	background-image: url('../img/ewu.png');
+
 }
 
 
